@@ -1,14 +1,14 @@
 var config = {}
 
-config.endpoint = "~your Azure Cosmos DB account endpoint uri here~";
-config.primaryKey = "~your primary key here~";
+config.endpoint = "https://mczdb.documents.azure.com:443/";
+config.primaryKey = "hE3lHT6PeBaQJlYIPXY4e4AYwSbhK9qJ4uNwHWwuuLU7hxyf4FYcwcwC76oXJiCj4dNNas5rxyC7gYk0cPMeOA==";
 
 config.database = {
-    "id": "FamilyDatabase"
+    "id": "db1"
 };
 
 config.container = {
-    "id": "FamilyContainer"
+    "id": "coll1"
 };
 
 config.items = {
