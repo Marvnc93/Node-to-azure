@@ -1,0 +1,134 @@
+[
+    {
+        "id": "4824711",
+        "TopicName": "SEN15",
+        "ReceivedDate": "2018-11-30T17:08:41.000Z",
+        "Temperature": 32,
+        "Humidity": 18,
+        "IsActive": true,
+        "CreatedBy": null,
+        "CreatedOn": "2018-11-30T17:05:52.710Z",
+        "ModifiedBy": null,
+        "ModifiedOn": "2018-11-30T17:05:52.710Z",
+        "VersionStamp": [
+            0,
+            0,
+            0,
+            0,
+            46,
+            123,
+            231,
+            52
+        ]
+    },
+    {
+        "Id": 4864726,
+        "TopicName": "SEN15",
+        "ReceivedDate": "2018-11-30T17:08:41.000Z",
+        "Temperature": 32,
+        "Humidity": 18,
+        "IsActive": true,
+        "CreatedBy": null,
+        "CreatedOn": "2018-11-30T17:07:36.710Z",
+        "ModifiedBy": null,
+        "ModifiedOn": "2018-11-30T17:07:36.710Z",
+        "VersionStamp": [
+            0,
+            0,
+            0,
+            0,
+            46,
+            123,
+            244,
+            137
+        ]
+    },
+    {
+        "Id": 4864741,
+        "TopicName": "SEN15",
+        "ReceivedDate": "2018-11-30T17:08:41.000Z",
+        "Temperature": 32,
+        "Humidity": 18,
+        "IsActive": true,
+        "CreatedBy": null,
+        "CreatedOn": "2018-11-30T17:09:37.723Z",
+        "ModifiedBy": null,
+        "ModifiedOn": "2018-11-30T17:09:37.723Z",
+        "VersionStamp": [
+            0,
+            0,
+            0,
+            0,
+            46,
+            124,
+            4,
+            50
+        ]
+    },
+    {
+        "Id": 4864756,
+        "TopicName": "SEN15",
+        "ReceivedDate": "2018-11-30T17:08:41.000Z",
+        "Temperature": 32,
+        "Humidity": 18,
+        "IsActive": true,
+        "CreatedBy": null,
+        "CreatedOn": "2018-11-30T17:10:38.740Z",
+        "ModifiedBy": null,
+        "ModifiedOn": "2018-11-30T17:10:38.740Z",
+        "VersionStamp": [
+            0,
+            0,
+            0,
+            0,
+            46,
+            124,
+            11,
+            254
+        ]
+    },
+    {
+        "Id": 4864771,
+        "TopicName": "SEN15",
+        "ReceivedDate": "2018-11-30T17:08:41.000Z",
+        "Temperature": 32,
+        "Humidity": 18,
+        "IsActive": true,
+        "CreatedBy": null,
+        "CreatedOn": "2018-11-30T17:11:39.756Z",
+        "ModifiedBy": null,
+        "ModifiedOn": "2018-11-30T17:11:39.756Z",
+        "VersionStamp": [
+            0,
+            0,
+            0,
+            0,
+            46,
+            124,
+            20,
+            174
+        ]
+    },
+    {
+        "Id": 4864786,
+        "TopicName": "SEN15",
+        "ReceivedDate": "2018-11-30T17:08:41.000Z",
+        "Temperature": 32,
+        "Humidity": 18,
+        "IsActive": true,
+        "CreatedBy": null,
+        "CreatedOn": "2018-11-30T17:12:40.770Z",
+        "ModifiedBy": null,
+        "ModifiedOn": "2018-11-30T17:12:40.770Z",
+        "VersionStamp": [
+            0,
+            0,
+            0,
+            0,
+            46,
+            124,
+            30,
+            55
+        ]
+    }
+]

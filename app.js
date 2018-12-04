@@ -14,18 +14,26 @@ const containerId = config.container.id;
 const client = new CosmosClient({ endpoint: endpoint, auth: { masterKey: masterKey } });
 
 
-async function queryContainer() {
-    console.log(`Querying container:\n${config.container.id}`);
-
-    // query to return all children in a family
-    const querySpec = {
-        query: "SELECT * FROM coll1"
-    };
-
-    const { result: results } = await client.database(databaseId).container(containerId).items.query(querySpec).toArray();
-    for (var queryResult of results) {
-        let resultString = JSON.stringify(queryResult);
-        console.log(`\tQuery returned ${resultString}\n`);
-    }
+async function createFamilyItem(itemBody) {
+    console.log(`Got Json with id:\n${itemBody.id} `)
+    const { item } = await client.database(databaseId).container(containerId).items.create(itemBody);
+    console.log(`Created family item with id:\n${itemBody.id}\n`);
 };
-queryContainer()
+createFamilyItem(config.fromjs[0])
+//createFamilyItem(config.items_old.Andersen)
+//createFamilyItem(config.items.Second)
+// async function queryContainer() {
+//     console.log(`Querying container:\n${config.container.id}`);
+
+//     // query to return all children in a family
+//     const querySpec = {
+//         query: "SELECT * FROM coll1"
+//     };
+
+//     const { result: results } = await client.database(databaseId).container(containerId).items.query(querySpec).toArray();
+//     for (var queryResult of results) {
+//         let resultString = JSON.stringify(queryResult);
+//         console.log(`\tQuery returned ${resultString}\n`);
+//     }
+// };
+// queryContainer()
