@@ -22,10 +22,10 @@
         ]
     },
     {
-        "Id": 4864726,
+        "id": "4864726",
         "TopicName": "SEN15",
         "ReceivedDate": "2018-11-30T17:08:41.000Z",
-        "Temperature": 32,
+        "Temperature": 22,
         "Humidity": 18,
         "IsActive": true,
         "CreatedBy": null,
@@ -44,10 +44,10 @@
         ]
     },
     {
-        "Id": 4864741,
+        "id": "4864741",
         "TopicName": "SEN15",
         "ReceivedDate": "2018-11-30T17:08:41.000Z",
-        "Temperature": 32,
+        "Temperature": 24,
         "Humidity": 18,
         "IsActive": true,
         "CreatedBy": null,
@@ -66,10 +66,10 @@
         ]
     },
     {
-        "Id": 4864756,
+        "id": "4864756",
         "TopicName": "SEN15",
         "ReceivedDate": "2018-11-30T17:08:41.000Z",
-        "Temperature": 32,
+        "Temperature": 26,
         "Humidity": 18,
         "IsActive": true,
         "CreatedBy": null,
@@ -88,10 +88,10 @@
         ]
     },
     {
-        "Id": 4864771,
+        "id": "4864771",
         "TopicName": "SEN15",
         "ReceivedDate": "2018-11-30T17:08:41.000Z",
-        "Temperature": 32,
+        "Temperature": 34,
         "Humidity": 18,
         "IsActive": true,
         "CreatedBy": null,
@@ -110,10 +110,10 @@
         ]
     },
     {
-        "Id": 4864786,
+        "id": "4864786",
         "TopicName": "SEN15",
         "ReceivedDate": "2018-11-30T17:08:41.000Z",
-        "Temperature": 32,
+        "Temperature": 23,
         "Humidity": 18,
         "IsActive": true,
         "CreatedBy": null,
